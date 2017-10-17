@@ -18,6 +18,5 @@ services:
        - /var/www/html/ProjectRoot/:/var/www/html
     depends_on:
       - db
-    privileged: true
 volumes:
     db_data:
